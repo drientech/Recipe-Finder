@@ -58,14 +58,7 @@ const RecipeItem = ({ favouriteHadler, savedItems }) => {
                   ? "- Remove from favourites"
                   : "+ Add favourites"}
               </button>
-              <a
-                className='bg-gradient-to-br from-sky-400 to-sky-600 text-sky-50 p-3 px-8 rounded-lg text-sm uppercase font-bold tracking-wider mt-2 inline-block     duration-300 outline-none text-center'
-                href={recipe?.source_url}
-                target='_blank'
-                rel='noreferrer'
-              >
-                Get Directions
-              </a>
+           
               <Link
                 to='/'
                 className='bg-gradient-to-br from-rose-400 to-rose-600 text-rose-50 p-3 px-8 rounded-lg text-sm uppercase font-bold tracking-wider mt-2 inline-block   duration-300 outline-none text-center'
